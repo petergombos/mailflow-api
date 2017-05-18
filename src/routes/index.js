@@ -1,9 +1,9 @@
 import { Router } from 'express'
 
-import todos from './todos'
+import search from './search'
 
 const router = Router()
 
-router.use('/todos', todos)
+router.use('/search', search)
 
 export default router
